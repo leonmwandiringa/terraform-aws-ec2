@@ -124,7 +124,7 @@ variable "root_iops" {
 variable "root_throughput" {
   type        = number
   description = "provisioned throughput for volume of type `gp3`"
-  default     = number
+  default     = null
 } 
 
 variable "delete_on_termination" {
